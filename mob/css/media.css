@@ -1,0 +1,690 @@
+@media screen  and (max-width: 1200px)  and (min-width: 992px) {
+    header .navbar-brand {
+        float: left;
+        height: 50px;
+        padding: 5px 6px;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    section .two {
+    position: absolute;
+    transform: translate(40%, -105%);
+}
+     header .menunew {
+       padding:0 10px;
+    } 
+
+    header .navbar-nav > li {
+        font-size: 16px;
+    }
+
+    #elan select.email {
+	    padding: 5px 30px 5px 5px;
+	    font-size: 16px;
+	    outline: none;
+	}
+
+    #elan .navmenu {
+        padding: 10px;
+    }
+    
+    #elan .fa-2x {
+    font-size: 1.7em;
+    margin-top:5px;
+    }
+
+    #elan select {
+        padding: 5px 7px 5px 7px;
+    }
+
+    #twopart button {
+        left: 60px;
+        top: 60px;
+    }
+
+    #twopart ul > li > a {
+        font-size: 18px;
+    }
+
+    #thrpart .col-md-7 {
+        padding-left: 0px;
+        padding-right: 0px
+    }
+
+    #forpart .nm p {
+        font-size: 17px;
+    }
+
+    #forpart .buttn .bt {
+        width: 255px;
+    }
+
+    #forpart .buttn .active {
+        transform: translateX(215px);
+    }
+
+	#forpart .buttn .active2 {
+        transform: translateX(430px);
+    }
+
+    #forpart .buttn .bt1 {
+        padding: 10px 40px;
+    }
+
+    footer .fonts a i {
+        margin-left: 5px;
+    }
+
+    footer button {
+        padding: 5px 40px 5px 0;
+    }
+
+    /* Product Choose */
+
+    #wrapper .Content_Secondpart p {
+        font-size: 28px;
+        padding: 30px 0;
+    }
+
+    #wrapper .Content_Secondpart {
+        padding: 20px 0 0 0;
+    }
+
+    #wrapper h3 {
+        font-size: 22px
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .pddng {
+        padding: 0 !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .nav1 li a {
+        padding-left: 7px !important;
+        padding-right: 7px !important;
+    }
+
+    .respnsv {
+        padding: 0 !important;
+    }
+}
+
+@media screen and (max-width: 992px) and (min-width: 768px) {
+    header nav .navbar-header .navbar-brand {
+        padding: 3px 0 0 0;
+        margin-left: -8px;
+    	margin-right: 5px;
+    }
+
+    header .menunew {
+       padding:0 20px;
+    } 
+    
+    header {
+        clip-path: polygon(50% 0%, 100% 0, 100% 90%, 0 75%, 0% 75%, 0 0);
+    }
+
+    header .navbar-nav > li {
+        font-size: 15px;
+    }
+    
+    header .navbar-nav > li > a {
+    	padding:15px 8px;
+    }
+
+    #elan select {
+        padding: 5px 0px 5px 2px;
+        font-size: 16px;
+    }
+    #elan .fontBold {
+        padding-left:0;
+    }
+
+    #elan select.email {
+	    padding: 3px 16px 4px 3px;
+   		font-size: 14px;
+	}
+
+	#elan .navmenu {
+	    padding: 16px;
+	}
+
+    #elan form {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+	
+	.select:after {
+	    padding: 12px 12px;
+	}
+
+    #elan .repsel .col-sm-12 {
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+
+    #elan .navmenu {
+        padding: 10px 0px 10px 4px
+    }
+    
+    #elan .fa-2x {
+        font-size: 1.7em;
+        margin-top:5px;
+    }
+    
+    header nav a.dropdown-toggle {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #elan .sg1 p , #elan .sg2 p , #elan .sg3 p{
+        padding-top: 50px;
+    }
+
+    section .two img {
+        position: absolute;
+        transform: translate(20%, -115%);
+        width: 350px;
+    }
+
+    #twopart button {
+    	left: 20px;
+    	top: 30px;
+    	padding: 12px 25px;
+	}
+
+    #twopart ul > li > a {
+        font-size: 18px;
+    }
+
+    #thrpart .color p {
+        padding: 35px 15px 10px 16px;
+    }
+
+    #thrpart .col-sm-3 {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    
+    #thrpart button {
+        padding: 7px 12px;
+    }
+    
+    #thrpart .color p {
+        padding: 35px 20px 10px 20px;
+    }
+
+    #thrpart .row.new {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    #thrpart .col-sm-7 {
+        padding-left: 0px;
+        padding-right: 0px
+    }
+
+    #thrpart .row.new {
+        font-size: 13px;
+    }
+
+    #forpart .tn img {
+        padding: 12px 0 30px 0;
+    }
+
+    #forpart img {
+
+        width: 150px;
+    }
+
+    #forpart h6 {
+        padding: 0 0 20px 0;
+    }
+
+    #forpart .col-sm-3 svg {
+        transform: translateY(45px);
+    }
+
+    #forpart .nm p {
+        font-size: 16px;
+    }
+
+    #forpart .col-sm-3 {
+        padding-right: 6px;
+        padding-left: 6px;
+    }
+
+    #forpart .tn i {
+        padding: 5px 5px;
+    }
+
+    #forpart .buttn .bt {
+        width: 225px;
+        font-size: 15px;
+    }
+
+    #forpart .buttn  .tb2 a  , #forpart .buttn  .tb3 a {
+    	font-size:15px;
+    }
+
+    #forpart .buttn .active {
+        transform: translateX(187px);
+    }
+
+	#forpart .buttn .active2 {
+        transform: translateX(374px);
+    }
+
+    #forpart .buttn .bt1 {
+        padding: 12px 20px;
+        font-size: 15px;
+    }
+
+    header .first {
+    	padding-top: 30px;
+	}
+
+    footer .parag button {
+        margin: 10px 0 0 10px;
+    }
+    
+    footer button {
+        padding: 5px 0 5px 0;
+    }
+    #forpart .nm p {
+        padding-top: 35px;
+    }
+
+    /*  Elaqe */ 
+    #ContactForm .triangle {
+        display: none;
+    }
+
+    /* Elanlar */
+
+    #Imageheader  .sm-img {
+        margin-top:30px;
+    }
+
+    /*Product Choose */
+    #wrapper .Content_Secondpart {
+        padding: 10px 0 0 0;
+    }
+
+    #wrapper h3 {
+        font-size: 17px
+    }
+
+    #wrapper .list-inline {
+        line-height: 2;
+    }
+
+    #wrapper .Content_Secondpart p {
+        font-size: 25px;
+        padding: 15px 0;
+    }
+
+    #wrapper .wrapper-Article .Article-button button {
+        width: 205px;
+    }
+
+}
+
+@media  screen and (max-width: 767px) {
+	
+	header  .navbar-nav .open .dropdown-menu>li>a {
+        padding: 5px 15px 5px 8px;
+    }
+    
+	header .dropdown-menu {
+        width: 100%;
+        padding: 0px 8px;
+    }
+    
+	header ul.dropdown li>a {
+		text-align: center
+	}
+    
+    header .col-md-5 {
+        padding-top: 30px;
+    }
+    
+    header .col-md-5 p {
+        font-size: 20px;
+        margin: 0 0 20px;
+    }
+
+    header h1 {
+        font-size: 40px;
+    }
+	
+	header nav .vvv {
+        padding-left:0 ;
+    }
+
+    header .col-md-5 button {
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+
+    header .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    	color: white;
+	}
+
+    header ul.nav.navbar-nav  li > a:focus ,  header .list-inline > a:focus ,  header ul .dropdown li:hover {
+    color: white;
+    text-align: left;
+}
+
+     header .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+        color: white;
+        background-color: rgba(0, 0 , 0, .1);
+    }
+
+    header .list-inline {
+        margin-left:0;
+    }
+    
+    header .ww {
+        margin-bottom: 10px
+    }
+
+    header .navbar .navbar-collapse {
+        text-align: left;
+    }
+
+    header .navbar-brand {
+    	width:240px;
+    	padding: 8px 15px;
+    }
+
+    header {
+        clip-path: polygon(50% 0%, 100% 0, 100% 100%, 0 100%, 0% 75%, 0 0);
+        padding-bottom: 100px;
+    }
+
+	header .menunew {
+        padding: 0 
+    }
+    
+    header .breadcrumb>li+li:before {
+        padding: 0 3px;
+    }
+
+    #elan .navmenu {
+		border-radius:0;
+		border:0;
+		box-shadow:none;
+		padding-left:0;
+		padding: 10px 20px 10px 25px;
+    }
+
+    form {
+    	text-align: center;
+    }
+
+    .select {
+   		border-right:0;
+    	margin-right:20px;
+	}
+
+	 #elan .select {
+	 	border:1px solid rgba(128 , 128 , 128 , .5);
+	 }
+
+	.navmenu label {
+    	width: 160px;
+	}
+
+    #elan .svgcont {
+        margin-bottom: 20px;
+    }
+
+	#elan select.email {
+	    padding: 0px 25px 0px 15px;
+	    font-size: 15px;
+	    outline: none;
+	}
+
+	#elan .col-sm-12 {
+		padding-left:8px;
+		padding-right:8px;
+	}
+
+	.select:after {
+	    padding: 10px 20px 10px 12px;
+	}
+    
+    #twopart .green {
+        text-align: center
+    }
+
+    section .two img {
+        display:none;
+   } 
+
+    #twopart ul > li > a {
+        font-size: 14px;
+    }
+
+    #twopart .blue {
+    	padding-left: 0;
+    	padding-right: 0;
+    }
+    
+    #thrpart .bn1 {
+        text-align: center;
+    }
+
+    #twopart ul > .active {
+        padding: 4px 8px;
+    }
+
+    #twopart ul > li {
+        padding: 4px 8px;
+        border-radius: 23px;
+    }
+
+    #thrpart .color	{
+        margin-bottom: 20px;
+    }
+    
+	#forpart .buttn .bt {
+	    width: 100%;
+	    font-size: 17px;
+	}
+
+	#forpart .buttn .bt1 {
+	    float: none;
+	    width:100%;
+	}
+	
+	#forpart .buttn .tb2 {
+	    transform: translateY(-49px);
+	}
+
+	#forpart .buttn .tb3	{
+        transform: translateY(-97px);
+	}
+	#forpart .buttn .active	{
+	    transform: translateY(-5px);
+	}
+
+	#forpart .buttn .active2	{
+        transform: translateY(-10px);
+	}
+
+	#forpart .buttn .tb2 a , #forpart .buttn .tb3 a {
+		font-size:17px;
+	}
+
+    #forpart .buttn .subscribe {
+        position: relative;
+        top: -80px;
+        transition: .3s linear;
+    }
+    
+    #forpart .buttn .subactive {
+		top:0;
+	}
+
+    #forpart .buttn .bt1 {
+       padding: 11px 20px;
+       font-size: 15px;
+	} 
+    
+	#forpart .buttn .bt {
+        position: relative;
+    }
+
+    footer .footbody .footad {
+        padding-top: 15px;
+    }
+
+    footer .foot2body {
+        margin-top: 30px;
+    }
+
+    footer .log {
+        margin-top: 30px;
+    }
+
+    footer .log img {
+    	margin-left: auto;
+    	margin-right: auto;
+    }
+
+	header .dropdown:hover .dropdown-menu {
+	    display: block;
+	    text-align: left;
+	}
+	
+	.nav1 li:hover {
+        border-bottom:0;
+        padding: 0;
+    }
+    
+    footer button {
+        padding: 5px 0;
+    }
+    footer button {
+    border-top-left-radius:0;
+}
+    
+    #elan .fontBold {
+        padding-left: 0;
+    }
+
+    /*    Elaqe   */
+    #ContactForm .Contacttwo:before {
+        display: none;
+    }
+
+    #ContactForm .Contacttwo {
+        border-bottom-right-radius:20px;
+        border-bottom-left-radius:20px;
+        border-top-right-radius: 0;
+    } 
+
+    /* Elanlar */
+
+#Imageheader  .xs-img , #Imageheader  .sm-img  {
+    margin-top:30px;
+}
+
+.elanhead #elan {
+    padding-bottom: 0;
+    position: relative;
+    transform:translateY(0);
+}
+
+/* Product Choose */
+
+#wrapper .Content_Secondpart {
+    padding: 30px 30px 10px 30px;
+}
+
+#wrapper .Content_Secondpart h3 {
+    font-size: 18px
+}
+
+#wrapper .Content_Secondpart p {
+    font-size: 20px;
+    padding: 15px 0;
+}
+
+#wrapper .list-inline {
+    line-height: 1.5;
+    width: 80%;
+}
+
+ #wrapper .wrapperbutton {
+    text-align: center;
+ }
+
+ #wrapper .wrapper-Article .Article-button button {
+    background-color: white;
+    border-radius:0;
+    padding: 12px;
+    width: 100%;
+    font-family: montRegular;
+    font-weight: bold;
+    outline: none;
+}
+
+#wrapper .wrapper-Article .Article-button .btn-box-shadow {
+    box-shadow: 3px 0px 10px 0px #fbfbfb;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+#wrapper .btn-left-one {
+    
+     transform: translateX(0);
+    box-shadow: 5px 0px 10px 0px #fbfbfb;
+}
+
+#wrapper .Article-Content {
+    background-color: white;
+    color: #818181;
+    border-radius: 0 0 8px 8px;
+    padding: 30px;
+}
+
+#wrapper .btn-left-two {
+    position: relative;
+    z-index: 1;
+    transform: translateX(0);
+}
+
+#wrapper .Display1, #wrapper .Display2, #wrapper .Display3 {
+    padding:0;
+}
+
+}
+
+@media screen and (max-width:510px) {
+    header li > a {
+        font-size: 13px;
+    }
+    
+    header .zz li {
+        padding: 0 2px;
+    }
+    
+    header .breadcrumb li>a {
+		font-size: 12px;
+	}
+    form {
+     text-align: left;
+}
+    /*elanlar */
+
+    #Imageheader .pagination>li>a, .pagination>li>span {
+    margin-right: 2px;
+    }
+}

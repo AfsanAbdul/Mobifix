@@ -1,0 +1,1415 @@
+@media screen  and (max-width: 1200px)  and (min-width: 992px) {
+    header .navbar-brand {
+        float: left;
+        height: 50px;
+        padding: 10px 6px;
+        font-size: 15px;
+        line-height: 20px;
+    }
+	
+     header .menunew {
+       padding:0 10px;
+    } 
+
+    header .navbar-nav > li {
+        font-size: 13px;
+    }
+	
+	header a.navbar-brand img.img-responsive {
+		width: 100px;
+	}
+
+    header #mywork {
+        padding: 0;
+    }
+
+    #choose-label .border {
+        left: 330px;
+    }
+
+    #brand .brandinner {
+        padding: 100px 0;
+    }
+
+    header .container-fluid {
+        padding-right: 75px;
+        padding-left: 80px;
+    }
+
+    .header-inner {
+        transform: translate(130px, 150px);
+        z-index: 9999;
+        position: absolute;
+    }
+	
+	.header-inner .select {
+    	width: 135px;
+	}
+	
+	.header-inner .select-styled {
+    	padding: 15px 10px;
+	}
+
+    #brand .brandinner {
+        padding: 0 0 50px 0;
+    }
+
+    header .header-inner button {
+        width: 115px;
+		top: -21px;
+    }
+
+    header .nav>li>a {
+        padding: 15px 13px;
+    }
+                /* Sign-in */
+    header .sign-content .sign-first-part {
+        padding: 0 15px;
+    }
+
+    header .sign-second-part p  {
+        font-size: 18px;
+        padding-right: 14px;
+    }
+    header .sign-content .sign-second-part h4 {
+        font-size: 18px;
+     }
+    header .sign-second-part {
+        padding: 100px 80px 0 25px;
+    }
+
+    header .sign-second-part p {
+        padding-right: 0;
+    }
+    
+                /*Sign-repair*/
+    .sign-repair .sign-headerbody .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .sign-secondpart .col-md-6 {
+        padding: 88px 35px 0 26px;
+    }
+
+                /*blog*/
+    .sign-content .blog-text h3 {
+        margin-bottom: 0;
+        padding: 0 20px;
+        font-size: 22px;
+    }
+
+    .blog-text {
+        padding: 15px 0;
+    }
+
+    .blog-text p {
+        font-size: 16px;
+        padding: 5px 18px;
+    }
+
+                /* Data */
+
+    .data .col-md-12 {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
+
+@media screen and (min-width:991px) {
+    .dropdown-menu li:hover .dropdown-menu {
+        visibility: visible;
+    }
+
+    .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+} 
+
+@media screen and (max-width: 768px) {
+    .nav1 li a {
+        padding-left: 7px !important;
+        padding-right: 7px !important;
+    }
+} 
+
+@media (max-width: 992px) {
+    header .navbar-header {
+        float: none;
+    }
+
+    header .navbar-left,.navbar-right {
+        float: none !important;
+    }
+
+    header .navbar-toggle {
+      display: block;
+    }
+
+    header .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+
+    header .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+
+    header .navbar-collapse.collapse {
+        display: none!important;
+    }
+
+    header .navbar-nav {
+        float: none!important;
+        margin-top: 8px;
+    }
+
+    header .navbar-nav>li {
+        float: none;
+    }
+
+    header .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    header .collapse.in{
+        display:block !important;
+    }
+	
+	.navbar-nav .open .dropdown-menu {
+    	position: static;
+    	float: none;
+    	width: auto;
+    	margin-top: 0;
+    	background-color: transparent;
+    	border: 0;
+    	-webkit-box-shadow: none;
+    	box-shadow: none;
+	}
+	
+	header .second-dropdown li  {
+        text-align: left;
+    }
+	
+	header  .navbar-nav .open .dropdown-menu>li>a {
+        padding: 5px 15px 5px 8px;
+    }
+	
+	header .first-dropdown  .navbar-nav  .open .dropdown-menu ,
+	header .second-dropdown  .navbar-nav  .open .dropdown-menu {
+        display: block
+    }
+    
+	header .dropdown-menu {
+        width: 100%;
+        padding: 0 8px;
+    }
+	
+	header ul.dropdown li>a {
+		text-align: center
+	}
+
+    header .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+	
+	header .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    	color: white;
+	}
+
+    header ul.nav.navbar-nav  li > a:focus ,
+    header .list-inline > a:focus ,  
+    header ul .dropdown li:hover {
+        color: white;
+        text-align: left;
+    }
+
+    header .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+        color: white;
+        background-color: rgba(0, 0 , 0, .1);
+    }
+	
+	header .first-dropdown .dropdown-menu:before ,
+    header .second-dropdown .dropdown-menu:before ,
+    .navconatiner-listinner .dropdown-menu:before {
+        display: none
+    }
+
+    header .navconatiner-listinner .dropdown-menu li>a {
+        color: white !important;
+    }
+
+    header .navconatiner-listinner .dropdown-menu li>a:hover,
+    .first-dropdown .dropdown-menu li>a:hover ,
+    .second-dropdown .dropdown-menu li>a:hover  {
+        color: white !important;
+        background-color: rgba(0,0,0, .3);
+        border-bottom: 1px solid white;
+    }
+
+    header .first-dropdown .navbar-nav li > a,
+    header .second-dropdown .navbar-nav li > a ,
+    header .second-dropdown .dropdown li>a  {
+        padding: 5px 10px;
+    }
+	
+	 header nav .navconatiner-listinner {
+        padding-left:0;
+    }
+	
+	.navconatiner-list.col-md-11 {
+		padding: 0;
+	}
+	
+	header .navbar>.container .navbar-brand, 
+    header .navbar>.container-fluid .navbar-brand {
+    	margin-left:0
+	}
+
+                /*Contact*/
+
+    #ContactForm .Contacttwo {
+        border-bottom-right-radius:0;
+        border-top-right-radius:0;
+    }
+
+    #ContactForm .forminner {
+        border-radius: 0;
+    }
+} 
+
+@media screen and (max-width: 992px) and (min-width: 769px) {
+    header nav .navbar-header .navbar-brand {
+        padding: 9px 0 0 0;
+    	margin-right: 5px;
+    }
+
+    header .menunew {
+        padding:0 20px;
+    } 
+
+    header .navbar-nav > li {
+        font-size: 13px;
+    }
+    
+    header .navconatiner-listinner .navbar-nav > li > a {
+        padding: 15px 5px;
+        font-size: 15px;
+    }
+
+	header .header-inner select.email {
+        width: 135px;
+        font-size: 15px;
+    }
+
+    header .header-inner button {
+        width: 119px;
+    }
+
+    header .header-inner form {
+        position: relative;
+        transform: translateY(45px);
+    }
+
+    header .header-inner select.email {
+        padding: 13px 5px;
+    }
+
+    header .header-inner button {
+        padding: 14px 0;
+		top:-21px;
+    }
+
+    header .navbar-brand {
+        width: 100px;
+    }
+
+    header .container-fluid {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    header .navconatiner-list.col-md-11.col-sm-11 , 
+    header #mywork {
+        padding-left: 0;
+        padding-right: 0;
+    }
+	
+    header nav .container {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    header .header-first-stageinner {
+        text-align: left
+    }
+	
+    header .icon-part {
+        text-align: right;
+    }
+	
+	header .header
+
+    #brand .brandtext {
+        padding: 60px 5px;
+    }
+
+    #brand .brandinner {
+        padding: 100px 5px;
+    }
+
+    #brand .col-sm-3 {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    #choose-label .border {
+        display: none;
+    }
+
+    .navbar-toggle:focus {
+         outline: 0;
+    }
+
+    header .headerbody .image {
+        transform: translateX(-80px);
+        width: 440px;
+        object-fit: cover
+    }
+
+    .header-inner {
+        transform: translate(0px, 80px);
+        z-index: 9999;
+        position: absolute;
+    }
+	
+    header .first-dropdown .navbar-nav li > a, 
+    header .second-dropdown .navbar-nav li > a {
+        padding: 10px 7px !important;
+    }
+                /*Sign-in*/
+    header .change-input .col-md-8 {
+        padding-left:0;
+        margin-top: 15px
+    }
+
+    header .sign-headerbody .container {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    header .sign-second-part p {
+        padding-right: 0;
+        padding-bottom: 30px;
+    }
+
+    header .sign-second-part {
+        padding: 30px 80px 0 80px;
+    }
+
+    header .sign-second-part p ,
+    header .sign-content .sign-second-part h4 {
+        font-size: 18px;
+    }
+
+    header .sign-content .button-class .col-md-6 {
+        text-align: right;
+    }
+
+                /* sign-repair */
+     .sign-repair .sign-headerbody .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .sign-secondpart .col-md-6 {
+        padding: 88px 35px 0 16px;
+    }
+
+    .sign-secondpart .plus-button {
+        background-color: #ff6600;
+        padding: 5px 13px;
+    }
+
+    .sign-repair .col-md-11.col-md-offset-1 ,
+    .sign-repair .col-md-4.col-sm-4.col-xs-4,
+    .sign-repair .col-md-4.cols-sm-4.col-xs-4  {
+        padding: 0
+    }
+
+    .sign-repair .checkmark {
+        top: -2px;
+        height: 21px;
+        width: 21px;
+    }
+
+    .sign-repair form .radio-inline {
+        padding-left: 26px;
+    }
+
+    .sign-repair .change-radio .checkmark:after {
+        width: 12px;
+    	height: 12px;
+    	transform: translate(29%,30%);
+    }
+
+    .button .col-md-8 {
+        padding-left: 0;
+    }
+
+    label.btn.btn-add-image {
+    	margin-bottom: 10px;
+	}
+
+                /*blog*/
+    .sign-content .blog-text h3 {
+        margin-bottom: 0;
+        padding: 10px 0;
+        font-size: 17px;
+    }
+
+    .blog-text {
+        padding: 0;
+    }
+
+    .blog-text p {
+        font-size: 15px;
+        padding: 5px 0;
+    }
+
+    .blog .col-md-12 {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+                /* Data */
+    .data .col-md-12 {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .data .col-md-12.lists {
+        padding-left: 15px !important;
+    }
+}
+
+@media screen and (max-width:830px) {
+    #ContactForm {
+        transform: translateY(0); 
+    }
+
+    #ContactForm .forminner {
+        box-shadow:none;
+    }
+
+    #ContactForm .container {
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (width:768px) {
+    
+	header.navbar>.container .navbar-brand,
+    header.navbar>.container-fluid .navbar-brand {
+        margin-left: -40px;
+    }
+
+    header .navbar-brand {
+        width: 100px;
+        padding:8px 0;
+    }
+
+    .navbar-brand>img {
+        display: block;
+        margin-left: -35px;
+    }
+
+    header nav .navconatiner-listinner {
+        padding-left:0; 
+    }
+
+    header .navconatiner-list.col-md-11.col-sm-11 , header #mywork {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    header nav .container {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    header .navbar-nav > li {
+        font-size: 12px;
+    }
+ 
+    header .navbar-nav > li > a {
+        padding:15px 5px;
+    } 
+
+    header .header-first-stageinner {
+        text-align: left
+    }
+
+    header .icon-part {
+        text-align: right;
+    }
+
+    #choose-label .border {
+        display: none;
+    }
+
+    #brand .brandinner {
+        padding: 100px 0;
+    }
+
+    #brand .brandtext {
+        padding: 40px 8px;
+    }
+
+    header .header-inner {
+        text-align: left
+    }
+
+    header .header-inner select.email {
+        width: 150px;
+        padding: 13px 5px;
+    }
+
+    header .header-inner button {
+        width: 140px;
+    	padding: 14px 0;
+    	top: -21px;
+    }
+
+    header .headerbody .image {
+        transform: translateX(-100px);
+        width: 400px;
+        object-fit: cover;
+    }
+
+    .header-inner {
+        transform: translate(0px, 100px);
+        z-index: 9999;
+        position: absolute;
+    }
+
+    header .headerbody {
+        height: 520px;
+    }
+	
+    #brand .brandinner {
+        padding: 0 10px 100px 0;
+    }
+	
+    header .first-dropdown .navbar-nav li > a, 
+    header .second-dropdown .navbar-nav li > a {
+        padding: 10px 4px !important;
+    }
+	
+    header .navconatiner-listinner .navbar-nav > li > a {
+        padding: 15px 4px !important;
+        font-size: 12px;
+    }
+	
+                /*Sign-in*/
+
+    header .change-input .col-md-8 {
+        padding-left:0;
+        margin-top: 15px
+    }
+
+    header .sign-content .button-class .col-md-6 {
+        text-align: right;
+    }
+
+    header .sign-content .sign-first-part {
+        padding: 0 77px;
+    }
+
+    header .sign-second-part p , header .sign-content .sign-second-part h4 {
+        font-size: 18px;
+    }
+
+    header .sign-second-part p {
+        padding-right: 0;
+        padding-bottom: 30px;
+    }
+
+                /*sign-repair*/
+
+    .sign-repair .sign-headerbody .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .sign-secondpart .col-md-6 {
+        padding: 88px 35px 0 20px;
+    }
+
+    .sign-secondpart .plus-button {
+        background-color: #ff6600;
+        padding: 5px 13px;
+    }
+
+    .sign-repair .col-md-11.col-md-offset-1 ,
+    .sign-repair .col-md-4.col-sm-4.col-xs-4,
+    .sign-repair .col-md-4.cols-sm-4.col-xs-4  {
+        padding: 0
+    }
+    .sign-repair .checkmark {
+        top: -2px;
+        height: 21px;
+        width: 21px;
+    }
+
+    .sign-repair form .radio-inline {
+        padding-left: 26px;
+    }
+
+    .sign-repair .change-radio .checkmark:after {
+    	width: 10px;
+    	height: 10px;
+    	transform: translate(-62%,30%);
+    }
+
+    .button .col-md-8 {
+        padding-left: 0;
+    }
+
+    label.btn.btn-add-image {
+    	margin-bottom: 10px;
+	}
+
+                /*blog*/
+    .sign-content .blog-text h3 {
+        margin-bottom: 0;
+        padding: 10px 0;
+        font-size: 17px;
+    }
+
+    .blog-text {
+        padding: 0;
+    }
+
+    .blog-text p {
+        font-size: 15px;
+        padding: 5px 0;
+    }
+
+    .blog .col-md-12 {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+
+                /* Data */
+
+    .data .col-md-12 {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .data .col-md-12.lists {
+        padding-left: 15px !important;
+    }
+
+}
+
+@media  screen and (max-width: 767px) {
+	
+	header  .navbar-nav .open .dropdown-menu>li>a {
+        padding: 5px 15px 5px 8px;
+    }
+	
+	header .first-dropdown  .navbar-nav  .open .dropdown-menu ,
+	header .second-dropdown  .navbar-nav  .open .dropdown-menu {
+        display: block
+    }
+    
+	header .dropdown-menu {
+        width: 100%;
+        padding: 0 8px;
+    }
+
+    header .container-fluid {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    
+	header ul.dropdown li>a {
+		text-align: center
+	}
+
+    header .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    header .col-md-5 p {
+        font-size: 20px;
+        margin: 0 0 20px;
+    }
+
+    header h1 {
+        font-size: 40px;
+    }
+
+    header .header-inner select.email {
+        width: 100%;
+        padding: 14px 5px;
+    }
+
+    header .header-inner button {
+        padding: 14px 0;
+    	top: -21px;
+    }
+
+    header .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    	color: white;
+	}
+
+    header ul.nav.navbar-nav  li > a:focus ,
+    header .list-inline > a:focus ,  
+    header ul .dropdown li:hover {
+        color: white;
+        text-align: left;
+    }
+
+    header .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+        color: white;
+        background-color: rgba(0, 0 , 0, .1);
+    }
+
+    header .list-inline {
+        margin-left:0;
+    }
+
+    header .navbar .navbar-collapse {
+        text-align: left;
+    }
+
+    header .navbar-brand {
+        width: 160px;
+        padding: 5px 15px;
+    }
+
+	header .menunew {
+        padding: 0 
+    }
+
+    #choose-label .border {
+        display: none;
+    }
+
+    #brand .brandtext {
+        margin-bottom: 20px;
+    }
+
+    header .second-dropdown li  {
+        text-align: left;
+    }
+
+    header .header-inner form {
+        transform: translateY(0px);
+        margin-bottom: 30px;
+    }
+
+    header .container-fluid {
+        padding-right:0; 
+        padding-left:0 ;
+    }
+
+    header ul>li .number {
+        color: white;
+        font-size: 12px;
+    }
+
+    header nav .navconatiner-listinner {
+        padding-left:0;
+    }
+
+    header .row {
+        margin-left:0;
+        margin-right: 0;
+    }
+
+    header .image {
+        width:50%;
+        margin:0 auto;
+    }
+    
+    header .header-first-stageinner li {
+        padding: 0 4px;
+    }
+
+    footer .footer-logo .img-responsive {
+        width:120px;
+        transform: translateY(5px);
+    }
+
+    footer .footer-logo {
+        width: 120px;
+        transform: translateY(0px);
+        float: left;
+    }
+
+    footer .icon-part.text-center{
+        text-align: left;
+    } 
+
+    footer .footer-content {
+        margin-top: 20px
+    }
+
+    header .header-first-stageinner {
+        text-align: left
+    }
+
+    header .icon-part {
+        text-align: right;
+    }
+
+    header .navconatiner-listinner li>a:hover {
+        border-bottom:none;
+    }
+	
+    header nav .navbar-default .navbar-nav>.open>a,
+    header nav .navbar-default .navbar-nav>.open>a:focus,
+    header nav.navbar-default .navbar-nav>.open>a:hover {
+        color: #555;
+        background-color: rgba(0,0,0, .1);
+    }
+
+    #brand .brandtext {
+        padding: 20px 20px;
+    }
+	
+    .header-inner {
+        position: relative;
+        transform: translate(0,0);
+    }
+
+    header .headerbody .image {
+        width: 380px;
+        transform: translateX(0);
+    }
+
+    .headerbody .col-md-5.col-xs-12 {
+        display: flex;
+        justify-content: center;
+    }
+                /* Sign-in */
+    header .sign-headerbody .container {
+        padding-left:15px;
+        padding-right:15px;
+    }
+
+    header .change-input .col-md-8 {
+        padding-left:0;
+        margin-top: 15px
+    }
+
+    header .sign-second-part p , header .sign-content .sign-second-part h4 {
+        font-size: 18px;
+    }
+
+    header .sign-second-part p {
+        padding-right: 0;
+        padding-bottom: 30px;
+    }
+
+    header .sign-content .button-class .col-md-6 {
+        text-align: right;
+    }
+
+    header .sign-second-part {
+        padding: 80px 80px 0 80px;
+    }
+
+    header .first-dropdown .dropdown-menu:before ,
+    header .second-dropdown .dropdown-menu:before ,
+    .navconatiner-listinner .dropdown-menu:before {
+        display: none
+    }
+
+    header .navconatiner-listinner .dropdown-menu li>a {
+        color: white !important;
+    }
+
+    header .navconatiner-listinner .dropdown-menu li>a:hover,
+    .first-dropdown .dropdown-menu li>a:hover ,
+    .second-dropdown .dropdown-menu li>a:hover  {
+        color: white !important;
+        background-color: rgba(0,0,0, .3);
+        border-bottom: 1px solid white;
+    }
+
+    header .first-dropdown .navbar-nav li > a,
+    header .second-dropdown .navbar-nav li > a ,
+    header .second-dropdown .dropdown li>a  {
+        padding: 5px 10px;
+    }
+
+    header .menu-set {
+        padding: 0 10px;
+    }
+
+                /*sign-repair*/
+
+    .sign-repair .sign-headerbody .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .sign-secondpart .col-md-6 {
+        padding: 0 35px 0 20px;
+    }
+
+    header .sign-repair .sign-content .sign-first-part {
+        padding: 0 33px 0 20px;
+    }
+
+    .sign-secondpart .plus-button {
+        background-color: #ff6600;
+        padding: 5px 13px;
+    }
+
+    .sign-repair .col-md-11.col-md-offset-1 ,
+    .sign-repair .col-md-4.col-sm-4.col-xs-4,
+    .sign-repair .col-md-4.cols-sm-4.col-xs-4  {
+        padding: 0
+    }
+
+    .button .col-md-8 {
+        padding-left: 0;
+    }
+
+    button.btn.btn-add-image {
+        margin-bottom:10px;
+    }
+
+    label.btn.btn-add-image {
+        margin-bottom: 12px;
+    }
+    
+    .checkboxdiv-1 {
+        display: none
+    }
+
+    .checkboxdiv-2 {
+        display: block;
+        padding-bottom: 13px;
+    }
+	
+	.blog-text .btn-blog {
+    	background-color: #ff6600;
+    	color: white;
+    	width: 50%;
+	}
+
+                /*blog*/
+    .change-part-1 {
+        display: none
+    }
+
+    .change-part-2 {
+        display: block
+    }
+    
+    .blog-text {
+        padding: 40px 0;
+    }
+	
+	.button .col-md-8 {
+        padding-left: 0;
+    }
+
+
+                /* Data */
+
+    .data .col-md-12 {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .data .col-md-12.lists {
+        padding-left: 15px !important;
+    }
+
+    .data p {
+        font-size: 15px;
+        padding: 5px 5px;
+    }
+
+    .data ul li {
+        padding: 8px 0;
+        font-size: 15px;
+    }
+
+    .data h3 {
+        color: #003854;
+        font-size: 19px;
+        padding: 30px 0 10px 0;
+    }
+}
+
+@media screen and (max-width: 550px) {
+
+    #brand .brandinner {
+        padding: 0 15px 100px 15px !important;
+    }
+
+                /*Sign-in*/
+    header .sign-content .sign-first-part {
+        padding: 0 !important;
+    }
+
+    header .sign-second-part p {
+        padding-right: 0 !important;
+        padding-bottom: 10px !important;
+        padding-top: 10px;
+    }
+
+    header .sign-second-part {
+        padding: 40px 0 0 0 !important;
+    }
+
+    header .sign-content .sign-second-part h4 {
+        font-size: 17px !important;
+    }
+
+    .radiobutton .col-xs-6 {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .sign-content .col-md-4.col-sm-7.col-xs-6.move-right ,
+    .sign-content .col-md-8.col-sm-5.col-xs-6 {
+        width: 100% !important;
+        text-align: center !important;
+    }
+	
+	.header-inner .select-options {
+    	left: -2px;
+	}
+
+                /*sign-repair*/
+
+    .checkboxdiv-2 {
+        display: block;
+        padding-bottom: 13px;
+    }
+
+    .sign-repair .checkmark {
+        top: -2px;
+        height: 21px;
+        width: 21px;
+    }
+
+    .sign-repair form .radio-inline {
+        padding-left: 26px;
+    }
+
+    .sign-repair .change-radio .checkmark:after {
+		width: 11px;
+		height: 11px;
+		transform: translate(35%,34%);
+    }
+
+    .sign-repair .col-md-11.col-md-offset-1 {
+        padding-left:20px;
+        padding-right: 33px;
+    }
+
+                /*blog*/
+    .blog-text p {
+        font-size: 15px;
+        padding: 10px 0;
+    }
+
+    .sign-content .blog-text h3 {
+        margin-top: 0;
+        color: #0a4875;
+        padding: 0;
+        line-height: 1.3;
+        font-size: 20px;
+    }
+
+    .h3-second, .h3-fourth {
+        padding: 0 !important;
+    }
+
+    .page .pagination>li>a, .page .pagination>li>span {
+        margin-right: 10px;
+    }
+
+    .blog .col-md-12 {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+                /*Connect*/
+
+    #ContactForm .Contactfirst {
+        padding-left: 30px;
+        padding-top: 60px;
+    }
+
+    #ContactForm .Contacttwo {
+        padding: 35px 0px 25px 0px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    header .header-inner select.email {
+        font-size: 14px !important;
+    }
+
+    header .header-inner button {
+        font-size:14px !important;
+    }
+	
+	.header-inner .select {
+    	width: 132px;
+		height: 49px;
+	}
+	
+	.header-inner .select-styled {
+    	padding: 15px 8px;
+	}
+
+                /* Data */
+
+    .data p {
+        font-size: 15px;
+        padding: 5px 5px;
+    }
+
+    .data ul li {
+        padding: 8px 0;
+        font-size: 15px;
+    }
+
+    .data h3 {
+        color: #003854;
+        font-size: 19px;
+        padding: 30px 0 10px 0;
+    }
+}
+
+@media screen and (max-width: 460px) {
+
+   header .headerbody .image {
+        width: 300px;
+        object-fit: cover;
+    }
+
+    .col-md-3.col-sm-5.col-xs-6.text-center ,
+    .col-md-3.col-md-offset-6.col-sm-4.col-sm-offset-3.col-xs-6.text-center {
+        padding: 0;
+    }
+
+    header .header-inner select.email {
+        width: 110px !important;
+        padding: 14px 0 !important;
+    }
+
+    header .header-inner button {
+        width: 88px !important;
+    }
+
+    header ul>li .number {
+        font-size: 11px !important;
+    }
+
+    .sign-repair .checkmark {
+        top: 0;
+        height: 17px;
+        width: 17px;
+    }
+
+    .sign-repair .change-radio .checkmark:after {
+		width: 9px;
+		height: 9px;
+		transform: translate(33%,31%);
+    }
+
+    .sign-repair .change-radio {
+        font-size: 14px;
+    }
+
+    .sign-repair form .radio-inline {
+        padding-left: 22px;
+    }
+
+    .sign-repair .col-md-4.col-sm-4.col-xs-4.paragraph {
+        width: 100%
+    }
+	
+	.header-inner .select {
+    	width: 105px;
+   	 	height: 48px;
+	}
+	
+	.header-inner .select {
+    	font-size: 13px;
+	}
+	
+	.header-inner .select-styled {
+    	padding: 15px 8px !important;
+	}
+	
+    header .header-inner button {
+        font-size: 13px !important;
+    }
+	.header-inner .select-styled:after {
+    	right: 4px;
+        border: 5px solid transparent;
+        border-color: #6e6e6e transparent transparent transparent;
+	}
+
+
+                /*blog*/
+
+    .sign-content .blog-text h3 {
+        margin-bottom: 0 !important;
+        font-size: 18px !important;
+    }
+
+    .page .pagination>li>a, .page .pagination>li>span {
+        position: relative;
+        float: left;
+        padding: 5px 10px;
+        margin-left: 0;
+        margin-right: 10px;
+        border-radius: 0 !important;
+        transition: .5s;
+        font-size: 12px;
+    }
+
+    .page .col-md-12.text-center {
+        padding: 0
+    }
+
+                /* sign-repair */
+    .sign-repair .form-control {
+        width: 100%;
+        height: 34px;
+        padding: 6px 12px;
+        font-size: 13px;
+        color: #555;
+    }
+
+    .sign-repair.col-md-4.col-sm-4.col-xs-4 {
+        padding-right: 10px !important;
+    }
+
+    span.times {
+        position: absolute;
+        top: 5px;
+        right: 48px;
+        font-size: 20px;
+        color: #555555;
+    }
+	
+	.checkboxdiv-2 span {
+    	padding: 0 12px 0 0;
+	}
+	
+	.checkboxdiv-2 .col-md-12 {
+    	padding: 0;
+	}
+
+}
+
+@media screen and (max-width: 360px) {
+
+    header ul>li .number {
+        font-size: 9px !important;
+    }
+
+    header .header-inner select.email , 
+    header .header-inner button {
+        font-size: 12px !important;
+    }
+
+    header .header-inner select.email {
+        width: 96px !important;
+        padding: 14px 0 !important;
+    }
+
+    header .form-control {
+        height: 42px;
+    }
+
+    header .header-inner button {
+        padding: 13px 0;
+    	top: -19px;
+    }
+
+    header .headphone {
+        width: 15px;
+    }
+	
+    header .col-md-3.col-sm-5.col-xs-6.text-center {
+        padding: 0
+    }
+
+    .headerbody .container ,
+    .headerbody .col-md-5.col-xs-12 ,
+    .headerbody .col-md-7.col-sm-6.col-xs-12.pull-right {
+        padding: 0;
+    }
+	
+	.header-inner .select {
+    	font-size: 12px !important;
+	}
+	
+	.header-inner .select {
+    	width: 95px;
+    	height: 43px;
+	}
+
+                /*blog*/
+
+    .page .pagination>li>a, .page .pagination>li>span {
+        margin-right: 4px !important;
+    }
+
+                /* sign-repair */
+    .sign-repair .col-md-11.col-md-offset-1 {
+        padding-left: 5px;
+        padding-right: 20px;
+    }
+    .sign-repair .col-md-11.col-sm-11.col-xs-11 {
+        padding: 0 5px 0 0;
+    }
+
+    .sign-repair .selectdiv:before {
+        right: 33px;
+    }
+
+    .sign-repair .selectdiv:after {
+        right: 17px;
+    }
+
+    span.times {
+        right: 40px;
+    }
+	.blog-text .btn-blog {
+    	background-color: #ff6600;
+    	color: white;
+    	width: 100% !important;
+	}
+
+                /*Contact*/
+
+    #ContactForm form {
+        padding: 0 15px;
+    }
+}

@@ -1,0 +1,200 @@
+
+header {
+    background-color:#101010;
+    color: white;
+    position: relative;
+}
+header .menunew {
+    padding:0 50px;
+} 
+
+header .navcontainer .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+header .container-fluid {
+    padding-right: 110px;
+    padding-left: 110px;
+}
+
+header  a:hover , header a:active {
+    color:white;
+    text-decoration:none 
+} 
+
+header .light , #elan select.email , #forpart .nm p {
+    font-family: montLight;
+}
+nav.navbar.navbar-default {
+    background-color:black;
+    border: 0px;
+    margin-bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+header ul>li .number {
+    color:#2a2a2a;
+}
+
+header .jj {
+    margin-top:50px;
+}
+
+header nav .vvv {
+    padding-left: 40px;
+}
+
+header .navbar-nav > li {
+    font-size: 15px;
+}
+
+header .navbar-nav > li:last-child {
+    padding-right: 0px !important;
+}
+
+ header .list-inline > li {
+    font-size: 16px;
+}
+
+header .list-inline {
+    margin-left: 0;
+}
+
+header .row {
+    padding-top: 10px;
+}
+
+header .zz li  {
+    padding:0 10px;
+}
+
+header ul.nav.navbar-nav .vvv li > a:focus {
+    color: white;
+    text-align: center;
+}
+header .vvv li > a, header .vvv ul.nav.navbar-nav li > a , header .vvv ul>li > a:focus , header .vvv ul> li > a:hover ,  header .ww li>a  {
+     color: white;
+}
+
+ header .list-inline > a:focus ,  header ul .dropdown li:hover {
+   color: black
+}
+
+header .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: -70px;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 110px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: 4px;
+}
+
+header .dropdown-menu:before {
+    content:"";
+    width: 0;
+    height: 0;
+    border-bottom: 6px solid white;
+    border-left: 6px solid transparent;
+    border-right:6px solid transparent;
+    position:absolute;
+    left: 85px;
+    top:-5px;
+}
+header .dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+header .dropdown-menu > li > a {
+    display: block;
+    padding: 5px 10px;
+    color:black;
+}
+
+header .left-icon {
+    color:white;
+}
+
+header ul.nav.navbar-nav li > a:hover {
+    color:white;
+    background-color: rgba(0, 0, 0, .1);
+}
+
+header .navbar-brand {
+    padding: 3px 15px;
+    font-size: 18px;
+    line-height: 20px;
+    width: 150px
+}
+
+header .headerbody {
+    padding-top: 80px;
+}
+
+ #choose-label {
+    padding-top: 15px
+ }
+header .header-inner select.email{
+    color:#949494;
+    font-weight: 200;
+    padding:15px;
+    font-size: 16px;
+    border:none;
+}
+
+header .header-inner select.email:hover {
+    background-color: #001ca9;
+    color:white;
+}
+
+header .header-inner form {
+    position: relative;
+    transform: translateY(100px);
+}
+
+#choose-label a {
+    text-decoration: none;
+    color:#011da9;
+}
+
+#choose-label p {
+    padding-top: 20px;
+    font-weight: 600
+}
+
+#choose-label .sg2:after , #choose-label .sg3:after  {
+    content: "";
+    width: 2px;
+    height: 75px;
+    border: 1px solid #989898;
+    position: absolute;
+    transform: translateY(-150px);
+    left: 10px;
+}
+
+#choose-label a:hover {
+    color:white;
+}
+
+#choose-label a:hover .svgcont{
+    background-color:#011da9 
+}
+
+#choose-label .svgcont {
+    padding:50px 0;
+}
+
+#choose-label a:hover #choose-label .sg2:after {
+    border:none;
+}
